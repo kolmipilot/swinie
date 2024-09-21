@@ -1,0 +1,49 @@
+body{
+    background-image: url("cool-background.png");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    color: coral;
+}
+.middle{
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+.tytul{
+    text-align: center;
+    padding-bottom: 20px;
+    margin: auto;
+    font-size: 30px;
+}
+.photos {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+.picture{
+    width: max-content;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+.picture img{
+    width: 25vw;
+}
+.picture h2{
+    font-size: 200%;
+    padding-bottom: 10px;
+}
+@media (max-width: 800px) {
+    .photos {
+      flex-direction: column;
+    }
+    .picture img{
+        width: 90dvw;
+    }
+  }
