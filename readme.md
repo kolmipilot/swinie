@@ -1,2 +1,2 @@
 #swinie
-Strona informacyjna zawierajaca kroniki tajemniczej miesjocowści.# swinie
+Strona informacyjna zawierajaca kroniki tajemniczej miesjocowści.
